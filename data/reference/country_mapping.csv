@@ -1,0 +1,70 @@
+iso3,country_name,ember_name,iea_name,in_ember,in_iea,in_worldbank
+ALB,Albania,Albania,,True,False,True
+ARE,United Arab Emirates,,United Arab Emirates,False,True,True
+ARG,Argentina,,Argentina,False,True,True
+AUS,Australia,Australia,Australia,True,True,True
+AUT,Austria,Austria,Austria,True,True,True
+BEL,Belgium,Belgium,Belgium,True,True,True
+BGR,Bulgaria,Bulgaria,Bulgaria,True,True,True
+BRA,Brazil,Brazil,Brazil,True,True,True
+CAN,Canada,Canada,Canada,True,True,True
+CHE,Switzerland,Switzerland,Switzerland,True,True,True
+CHL,Chile,Chile,Chile,True,True,True
+CHN,China,China,China,True,True,True
+COL,Colombia,Colombia,Colombia,True,True,True
+CRI,Costa Rica,,Costa Rica,False,True,True
+CYP,Cyprus,Cyprus,Cyprus,True,True,True
+CZE,Czechia,Czechia,Czech Republic,True,True,True
+DEU,Germany,Germany,Germany,True,True,True
+DNK,Denmark,Denmark,Denmark,True,True,True
+ECU,Ecuador,Ecuador,,True,False,True
+ESP,Spain,Spain,Spain,True,True,True
+EST,Estonia,Estonia,Estonia,True,True,True
+FIN,Finland,Finland,Finland,True,True,True
+FRA,France,France,France,True,True,True
+GBR,United Kingdom,United Kingdom,United Kingdom,True,True,True
+GRC,Greece,Greece,Greece,True,True,True
+HKG,Hong Kong (SAR of China),Hong Kong (SAR of China),,True,False,True
+HRV,Croatia,Croatia,Croatia,True,True,True
+HUN,Hungary,Hungary,Hungary,True,True,True
+IDN,Indonesia,Indonesia,Indonesia,True,True,True
+IND,India,India,India,True,True,True
+IRL,Ireland,Ireland,Ireland,True,True,True
+ISL,Iceland,Iceland,Iceland,True,True,True
+ISR,Israel,Israel,Israel,True,True,True
+ITA,Italy,Italy,Italy,True,True,True
+JOR,Jordan,,Jordan,False,True,True
+JPN,Japan,Japan,Japan,True,True,True
+KHM,Cambodia,,Cambodia,False,True,True
+KOR,South Korea,South Korea,Korea,True,True,True
+LAO,Lao PDR,,Lao PDR,False,True,True
+LTU,Lithuania,Lithuania,Lithuania,True,True,True
+LUX,Luxembourg,Luxembourg,Luxembourg,True,True,True
+LVA,Latvia,Latvia,Latvia,True,True,True
+MEX,Mexico,Mexico,Mexico,True,True,True
+MLT,Malta,Malta,,True,False,True
+MYS,Malaysia,Malaysia,Malaysia,True,True,True
+NLD,Netherlands,Netherlands,Netherlands,True,True,True
+NOR,Norway,Norway,Norway,True,True,True
+NPL,Nepal,Nepal,Nepal,True,True,True
+NZL,New Zealand,New Zealand,New Zealand,True,True,True
+PER,Peru,Peru,,True,False,True
+PHL,Philippines,,Philippines,False,True,True
+POL,Poland,Poland,Poland,True,True,True
+PRT,Portugal,Portugal,Portugal,True,True,True
+ROU,Romania,Romania,Romania,True,True,True
+RUS,Russia,,Russia,False,True,True
+SGP,Singapore,Singapore,Singapore,True,True,True
+SVK,Slovakia,Slovakia,Slovakia,True,True,True
+SVN,Slovenia,Slovenia,Slovenia,True,True,True
+SWE,Sweden,Sweden,Sweden,True,True,True
+SYC,Seychelles,,Seychelles,False,True,True
+THA,Thailand,Thailand,Thailand,True,True,True
+TUR,Türkiye,Türkiye,Turkiye,True,True,True
+TWN,Taiwan (China),Taiwan (China),,True,False,False
+UKR,Ukraine,Ukraine,,True,False,True
+URY,Uruguay,Uruguay,Uruguay,True,True,True
+USA,United States,United States,USA,True,True,True
+UZB,Uzbekistan,,Uzbekistan,False,True,True
+VNM,Viet Nam,Viet Nam,Viet Nam,True,True,True
+ZAF,South Africa,South Africa,South Africa,True,True,True
