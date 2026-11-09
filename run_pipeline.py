@@ -1,11 +1,12 @@
 """Run the whole EVISION 360 pipeline from raw files to the PostgreSQL warehouse.
 
 Usage (from the repo root, with the .venv active):
-    python run_pipeline.py              # mapping -> cleaning -> warehouse load
+    python run_pipeline.py              # mapping -> cleaning -> warehouse load -> analytics load
     python run_pipeline.py --skip-db    # stop after the cleaning steps (no PostgreSQL needed)
     python run_pipeline.py --test       # also run the test suite at the end
 
 Each step is an ordinary script, so any step can still be run on its own.
+The analytics step loads CSV files written by notebooks 06, 07 and 07b (skipped with a message if a file is missing).
 Stops at the first failing step.
 """
 import argparse
@@ -22,6 +23,7 @@ STEPS = [
     ("Clean IEA Global EV Data", "src/cleaning/clean_iea.py", False),
     ("Clean World Bank indicators", "src/cleaning/clean_worldbank.py", False),
     ("Load PostgreSQL warehouse", "src/transformation/load_warehouse.py", True),  # True = needs the database
+    ("Load analytics outputs (segments, forecasts, readiness)", "src/transformation/load_analytics.py", True),
 ]
 
 

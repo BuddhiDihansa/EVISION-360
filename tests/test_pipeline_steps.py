@@ -11,5 +11,6 @@ def test_every_pipeline_step_points_to_an_existing_script():
         assert (ROOT / script).is_file(), f"{title}: {script} not found"
 
 
-def test_database_step_is_last():
-    assert STEPS[-1][2] is True and not any(s[2] for s in STEPS[:-1])
+def test_database_steps_come_last():
+    flags = [needs_db for _, _, needs_db in STEPS]
+    assert flags == sorted(flags) and flags[-1] is True   # all non-database steps first, database steps at the end

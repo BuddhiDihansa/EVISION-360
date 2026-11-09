@@ -25,7 +25,7 @@ from clean_iea import CHARGING, MARKET  # noqa: E402
 from db import get_engine  # noqa: E402
 
 INTERIM = ROOT / "data/interim"
-SQL_FILES = ["schema.sql", "dimensions.sql", "fact_tables.sql"]
+SQL_FILES = ["schema.sql", "dimensions.sql", "fact_tables.sql", "views.sql"]
 SCHEMA = "evision"
 
 # Codes shared across sources so World / EU are one row in dim_geography.
